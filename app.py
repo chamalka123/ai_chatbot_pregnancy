@@ -5,6 +5,10 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
+# Download the required NLTK corpora
+nltk.download('wordnet')
+nltk.download('punkt')
+
 from keras.models import load_model
 model = load_model('model.h5')
 import json
