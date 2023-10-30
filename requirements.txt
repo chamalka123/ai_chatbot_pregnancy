@@ -13,5 +13,4 @@ regex==2023.10.3
 tqdm==4.66.1
 Werkzeug==3.0.1
 tensorflow==2.14.0
-tensorflow-cpu
 gunicorn==19.9.0
